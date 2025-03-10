@@ -1,9 +1,0 @@
-return response()->json($result)
-->header('Access-Control-Allow-Origin', '*') // Allows requests from any origin
-->header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS') // Allowed HTTP methods
-->header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
-
-
-data = await axios.get("http://localhost:8001/billing/status-table/table/2/jsonForms",{
-headers: {    'Content-Type': 'application/json',  },
-withCredentials: false, // Ensure this matches your CORS policy});
